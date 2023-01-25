@@ -2,6 +2,7 @@
 
 namespace Config;
 
+use App\Filters\FilterJwt;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
@@ -23,6 +24,7 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'otentikasi' => FilterJwt::class
     ];
 
     /**
@@ -68,5 +70,12 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    public $filters = [];
+    public $filters = [
+        'otentikasi' => [
+            'before' => [
+                'movies/*',
+                'movies'
+            ]
+        ]
+    ];
 }
