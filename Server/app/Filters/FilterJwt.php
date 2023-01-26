@@ -1,18 +1,17 @@
 <?php
 
 namespace App\Filters;
-
 use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 
-use CodeIgniter\HTTP\RequestTrait;
+use CodeIgniter\HTTP\ResponseTrait;
 use Exception;
 use CodeIgniter\Config\Services;
 
 class FilterJwt implements FilterInterface
 {
-    use RequestTrait;
+    use ResponseTrait;
     public function before(RequestInterface $request, $arguments = null)
     {
         // Do something here

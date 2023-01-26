@@ -5,7 +5,7 @@ use Firebase\JWT\Key;
 
 function getJWT($otentikasiHeader) {
     if(is_null($otentikasiHeader)) {
-        throw new Exception("Otentikasi JWT Gagal");
+        throw new Exception("Silahkan masukan token");
     }
     return explode(" ", $otentikasiHeader)[1];
 }

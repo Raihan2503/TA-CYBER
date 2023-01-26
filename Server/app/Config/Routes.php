@@ -37,9 +37,9 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 $routes->resource('movies');
-$routes->get('restclient', 'RestClient::index');
+// $routes->get('restclient', 'RestClient::index');
 $routes->post('otentikasi', 'Otentikasi::index');
-$routes->post('register', 'Register::index');
+// $routes->post('register', 'Register::index');
 
 /*
  * --------------------------------------------------------------------
