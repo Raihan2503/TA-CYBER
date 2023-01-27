@@ -1,0 +1,284 @@
+CRITICAL - 2023-01-10 04:12:19 --> syntax error, unexpected variable "$jwt"
+in APPPATH\Helpers\jwt_helper.php on line 31.
+ 1 APPPATH\Filters\FilterJwt.php(21): helper([...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('movies', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-10 04:38:50 --> Undefined property: CodeIgniter\Validation\Validation::$getErrors
+in APPPATH\Controllers\Otentikasi.php on line 32.
+ 1 APPPATH\Controllers\Otentikasi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Validation\\Validation::$getErrors', 'APPPATH\\Controllers\\Otentikasi.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-10 04:57:57 --> Cannot use object of type App\Models\ModelOtentikasi as array
+in APPPATH\Controllers\Otentikasi.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 04:58:31 --> Cannot use object of type App\Models\ModelOtentikasi as array
+in APPPATH\Controllers\Otentikasi.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 04:59:46 --> Cannot use object of type App\Models\ModelOtentikasi as array
+in APPPATH\Controllers\Otentikasi.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 05:02:44 --> Cannot use object of type App\Models\ModelOtentikasi as array
+in APPPATH\Controllers\Otentikasi.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 05:03:18 --> Cannot use object of type App\Models\ModelOtentikasi as array
+in APPPATH\Controllers\Otentikasi.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 05:05:27 --> Cannot use object of type App\Models\ModelOtentikasi as array
+in APPPATH\Controllers\Otentikasi.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 05:12:49 --> Data otentikasi tidak ditemukan!
+in APPPATH\Models\ModelOtentikasi.php on line 19.
+ 1 APPPATH\Controllers\Otentikasi.php(40): App\Models\ModelOtentikasi->getEmail('raihan@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 05:13:07 --> Data otentikasi tidak ditemukan!
+in APPPATH\Models\ModelOtentikasi.php on line 19.
+ 1 APPPATH\Controllers\Otentikasi.php(40): App\Models\ModelOtentikasi->getEmail('raihan@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 05:18:06 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\TA-CYBER\Server\app\Helpers\jwt_helper.php on line 32 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 183.
+ 1 APPPATH\Helpers\jwt_helper.php(32): Firebase\JWT\JWT::encode([...], '21rUm4h24fif')
+ 2 APPPATH\Controllers\Otentikasi.php(49): createJWT('lesleyfarm11@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 06:37:38 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 06:38:00 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 06:39:20 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 06:40:57 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 06:43:54 --> Class "App\Controllers\ModelOtentikasi" not found
+in APPPATH\Controllers\Register.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 06:44:21 --> mysqli_sql_exception: Table 'db_cyber_movie.users' doesn't exist in C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\TA-CYBER\Server\app\Controllers\Register.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Register->index()
+#10 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\TA-CYBER\Server\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\TA-CYBER\Server\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-10 06:44:21 --> Table 'db_cyber_movie.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`email`, `password`) VALUES (\'lesleyfarm11@gmail.com\', \'$2y$10$NQiPOPE54.hHNWVLRtvmc.YKBVPsp9MmqSAt2.eE.KTNI1LwxVdde\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `password`) VALUES (\'lesleyfarm11@gmail.com\', \'$2y$10$NQiPOPE54.hHNWVLRtvmc.YKBVPsp9MmqSAt2.eE.KTNI1LwxVdde\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `password`) VALUES (\'lesleyfarm11@gmail.com\', \'$2y$10$NQiPOPE54.hHNWVLRtvmc.YKBVPsp9MmqSAt2.eE.KTNI1LwxVdde\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`) VALUES (:email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 06:45:58 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\TA-CYBER\Server\app\Controllers\Login.php on line 40 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 183.
+ 1 APPPATH\Controllers\Login.php(40): Firebase\JWT\JWT::encode([...], 'cskhfuwt48wbfjn3i4utnjf38754hf3yfbjc93758thrjsnf83hcwn8437')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 06:55:18 --> otentikasi filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('otentikasi')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('movies')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('movies', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 19:47:08 --> Data otentikasi tidak ditemukan!
+in APPPATH\Models\ModelOtentikasi.php on line 18.
+ 1 APPPATH\Controllers\Otentikasi.php(40): App\Models\ModelOtentikasi->getEmail('lesleyfarm11@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Otentikasi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:04:00 --> Firebase\JWT\JWT::decode(): Argument #1 ($jwt) must be of type string, array given, called in C:\xampp\htdocs\TA-CYBER\Server\app\Helpers\jwt_helper.php on line 14
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 90.
+ 1 APPPATH\Helpers\jwt_helper.php(14): Firebase\JWT\JWT::decode([...], 'r41hANm0v13s', 'HS256')
+ 2 APPPATH\Filters\FilterJwt.php(23): validateJWT([...])
+ 3 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('movies', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:04:22 --> Firebase\JWT\JWT::decode(): Argument #1 ($jwt) must be of type string, array given, called in C:\xampp\htdocs\TA-CYBER\Server\app\Helpers\jwt_helper.php on line 14
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 90.
+ 1 APPPATH\Helpers\jwt_helper.php(14): Firebase\JWT\JWT::decode([...], 'r41hANm0v13s', 'HS256')
+ 2 APPPATH\Filters\FilterJwt.php(23): validateJWT([...])
+ 3 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('movies', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:29:36 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:30:05 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:31:50 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:32:06 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:32:28 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:32:37 --> Allowed fields must be specified for model: App\Models\ModelOtentikasi
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModelOtentikasi')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:36:50 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Movies.php(51): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Movies->create()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movies))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 20:37:16 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Movies.php(51): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Movies->create()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movies))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 21:10:53 --> Undefined array key "gambar_movie"
+in APPPATH\Controllers\Movies.php on line 69.
+ 1 APPPATH\Controllers\Movies.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar_movie"', 'APPPATH\\Controllers\\Movies.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Movies->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movies))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

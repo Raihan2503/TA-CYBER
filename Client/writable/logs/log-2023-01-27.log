@@ -1,0 +1,33 @@
+CRITICAL - 2023-01-27 00:00:54 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 652.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-27 03:20:20 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 652.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-27 04:42:48 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\restclient_helper.php on line 25.
+ 1 APPPATH\Helpers\restclient_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\restclient_helper.php', 25)
+ 2 APPPATH\Controllers\RestClient.php(50): akses_restapi('GET', 'http://localhost/TA-CYBER/Server/public/otentikasi', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RestClient->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 04:42:48 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\restclient_helper.php on line 25.
+ 1 APPPATH\Helpers\restclient_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\restclient_helper.php', 25)
+ 2 APPPATH\Controllers\RestClient.php(50): akses_restapi('GET', 'http://localhost/TA-CYBER/Server/public/otentikasi', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RestClient->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 05:11:19 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\index.php on line 179.
+ 1 APPPATH\Views\index.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\index.php', 179)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\RestClient.php(55): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RestClient->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
