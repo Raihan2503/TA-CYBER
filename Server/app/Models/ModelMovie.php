@@ -20,11 +20,4 @@ class ModelMovie extends Model
             'required' => 'Silahkan diisi judul movie'
         ]
         ];
-    // public function getMovie($id = null)
-    // {
-    //     if($id === null) {
-    //         return $this->findAll();
-    //     }
-    //     return $this->where(['id_movie' => $id])->first();
-    // }
 }
